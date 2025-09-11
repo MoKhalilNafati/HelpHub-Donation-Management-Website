@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa; /* Fond légèrement plus clair, plus doux */
+  color: #333; /* Texte de base plus doux */
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #FF6F61, #6A11CB);
+  color: white;
+  padding: 100px 0;
+}
+
+/* Hero Titles */
+.hero .display-4 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero .lead {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+/* About Section */
+.about {
+  background-color: #34495e;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #dcdcdc;
+}
+
+/* Features Section */
+.features {
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  padding: 80px 0;
+}
+
+.features .feature-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  padding: 40px 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.features .feature-box:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.features .feature-box i {
+  font-size: 3.5rem;
+  color: #6A11CB;
+  margin-bottom: 15px;
+}
+
+.features .feature-box h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  font-size: 1rem;
+  padding: 30px 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .hero .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .hero .lead {
+    font-size: 1.1rem;
+  }
+
+  .features .feature-box i {
+    font-size: 2.8rem;
+  }
+}
+
+/* Stats Section */
+.stats-section {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 60px 0;
+  text-align: center;
+}
+
+.stats-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Cards for Stats */
+.card.bg-success {
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+  color: white;
+}
+
+.card.bg-info {
+  background: linear-gradient(135deg, #2196F3, #64B5F6);
+  color: white;
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0.5rem 0;
+}
+
+/* General card design */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #6A11CB;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5b0eb2;
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
