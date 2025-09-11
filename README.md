@@ -79,7 +79,7 @@ The system ensures transparency, accessibility, and an intuitive user experience
 ## 🚀 Installation & Usage
 1. Clone the repository:  
    bash:
-   git clone https://github.com/your-username/helphub-donation-platform.git
+   git clone https://github.com/MoKhalilNafati/HelpHub-Donation-Management-Website.git
 2. Import the provided SQL file into your MySQL/MariaDB database.
 
 3. Update config.php with your database credentials.
